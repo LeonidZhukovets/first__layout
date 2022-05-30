@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap');
+
+@import 'root.css';
+@import 'reset.css';
+@import 'about.css';
+@import 'features.css';
+@import 'work.css';
+@import "our-team.css";
+@import "testimonials.css";
+@import "download.css"

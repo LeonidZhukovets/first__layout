@@ -1,0 +1,52 @@
+.slider {
+	width: 100%;
+}
+
+.slide {
+	display: flex;
+	flex-basis: content;
+}
+
+.slide_1 {
+	width: 100%;
+	background-color: #5C3249;
+
+}
+
+.slide__img {
+	background: url('../assets/bg_testimonials.jpg') center no-repeat;
+	flex-basis: 50%;
+	width: 740px;
+	height: 490px;
+}
+
+.slide__discription {
+	flex-basis: 50%;
+	display: flex;
+	flex-direction: column;
+}
+
+.slide__discription>h2 {
+	width: 470px;
+	height: 230px;
+	font-family: 'Cardo';
+	font-style: italic;
+	font-weight: 400;
+	font-size: 36px;
+	line-height: 49px;
+	color: var(--color-white);
+	/* margin: 0 auto;
+	padding-top: 115px; */
+
+}
+
+.slide__discription>h6 {
+
+	font-weight: 700;
+	font-size: 13px;
+	line-height: 15px;
+	display: flex;
+	align-items: center;
+	text-transform: uppercase;
+	color: var(--color-white);
+}
