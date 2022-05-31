@@ -3,27 +3,30 @@
 }
 
 .slide {
+	width: 100%;
 	display: flex;
-	flex-basis: content;
+
 }
 
 .slide_1 {
 	width: 100%;
 	background-color: #5C3249;
 
+
 }
 
 .slide__img {
 	background: url('../assets/bg_testimonials.jpg') center no-repeat;
-	flex-basis: 50%;
+
 	width: 740px;
 	height: 490px;
 }
 
 .slide__discription {
-	flex-basis: 50%;
 	display: flex;
 	flex-direction: column;
+	justify-content: center;
+	padding-left: 120px;
 }
 
 .slide__discription>h2 {
@@ -35,8 +38,6 @@
 	font-size: 36px;
 	line-height: 49px;
 	color: var(--color-white);
-	/* margin: 0 auto;
-	padding-top: 115px; */
 
 }
 
