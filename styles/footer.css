@@ -63,6 +63,11 @@
 	fill: none;
 }
 
+.contacts__social-link-icon>svg:hover {
+	opacity: 0.3;
+	fill: #2C3154;
+}
+
 .contacts__about {
 	width: 370px;
 	color: var(--color-white);

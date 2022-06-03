@@ -110,3 +110,9 @@
 	box-shadow: 4px 4px 30px 0px var(--color-coral);
 
 }
+
+@media (max-width: 568px) {
+	.header__nav-list {
+		display: none;
+	}
+}

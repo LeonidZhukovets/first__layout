@@ -73,3 +73,8 @@
 	height: 39px;
 	fill: none;
 }
+
+.person-card__links-icon>svg:hover {
+	opacity: 0.5;
+	fill: gray;
+}

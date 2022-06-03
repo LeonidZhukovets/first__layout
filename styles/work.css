@@ -3,17 +3,18 @@
 }
 
 .gallery {
+	max-width: 100%;
 	display: flex;
-	flex-basis: content;
-	/* justify-content: center; */
+	justify-content: space-between;
 	flex-wrap: wrap;
+	row-gap: 4px;
+
 }
 
 .gallery__img {
-	flex-basis: 25%;
-	width: 380px;
-	height: 340px;
-	border: 2px solid var(--color-white);
+	flex-basis: 24.8%;
+
+	height: 24vw;
 	position: relative;
 }
 
@@ -85,4 +86,10 @@
 
 .gallery__img_8 {
 	background: url("../assets/work_8.jpg") center/cover no-repeat;
+}
+
+@media (max-width: 568px) {
+	.gallery__img {
+		flex-basis: 48%;
+	}
 }
