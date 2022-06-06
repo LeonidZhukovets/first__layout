@@ -10,16 +10,29 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	padding-right: 30px;
+}
+
+.header__logo {
+	display: flex;
+	width: 190px;
+	height: 100px;
+}
+
+.header__nav {
+	height: 100%;
+	width: min(100%, 700px);
 }
 
 .header__nav-list {
 	display: flex;
+	justify-content: space-evenly;
 	list-style: none;
 	height: 100%;
 }
 
 .header__nav-item {
-	margin: 0 35px;
+	/* margin: 0 35px; */
 	position: relative;
 	line-height: 100px;
 }
@@ -57,6 +70,70 @@
 	background-color: var(--color-coral);
 }
 
+.input-burger {
+	display: none;
+}
+
+.burger__label {
+
+
+	cursor: pointer;
+	display: none;
+}
+
+.burger__label>svg {
+	width: 24px;
+	height: 18px;
+
+}
+
+.burger__menu {
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background-color: rgba(44, 44, 46, 0.418);
+	backdrop-filter: blur(5px);
+	z-index: 100;
+	transform: translateX(-100vw);
+	transition: all 0.5s;
+	padding: 2.5em;
+	display: flex;
+	flex-direction: column;
+}
+
+.burger__close {
+	font-size: 24px;
+	color: var(--color-white);
+	font-weight: 700;
+	cursor: pointer;
+	display: block;
+	align-self: flex-end;
+}
+
+.burger__nav-list {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	height: 50vh;
+	list-style: none;
+
+}
+
+.burger__nav-link {
+	color: var(--color-white);
+	font-weight: 700;
+	font-size: 1rem;
+	line-height: 15px;
+	text-transform: uppercase;
+
+}
+
+.input-burger:checked~.burger__menu {
+	transform: translateX(0);
+}
+
 .about_content {
 	margin: 70px;
 	display: flex;
@@ -64,8 +141,8 @@
 	align-items: center;
 }
 
-.about__content__title {
-	margin-top: 130px;
+.about__title {
+	margin-top: 1.2em;
 	font-weight: 900;
 	font-size: 64px;
 	line-height: 75px;
@@ -74,14 +151,14 @@
 	text-align: center;
 }
 
-.about_content__discription {
+.about__discription {
 	font-weight: 400;
 	font-size: 24px;
 	line-height: 28px;
 	color: var(--color-white);
 	text-align: center;
-	margin-top: 30px;
-	margin-bottom: 80px;
+	margin-top: 1.2em;
+	margin-bottom: 3.3em;
 }
 
 .button {
@@ -111,8 +188,37 @@
 
 }
 
-@media (max-width: 568px) {
-	.header__nav-list {
+@media (max-width: 1024px) {
+	.about__title {
+		font-size: 48px;
+		line-height: 56px;
+	}
+
+	.about__discription {
+		font-size: 18px;
+		line-height: 21px;
+		margin-top: 3em;
+	}
+
+	.header__nav-link {
+		font-size: 12px;
+		line-height: 15px;
+	}
+}
+
+@media (max-width: 768px) {
+	.header__nav {
 		display: none;
+	}
+
+	.burger__label {
+		display: block;
+	}
+
+}
+
+@media (max-width: 320px) {
+	.button {
+		width: 280px;
 	}
 }

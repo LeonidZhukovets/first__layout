@@ -1,22 +1,26 @@
 .footer {
 	width: 100%;
 	padding-top: 115px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
 }
 
 .contacts {
 	background: #353C65;
-	height: 250px;
+	min-height: 250px;
 	display: flex;
 	justify-content: center;
 	column-gap: 35px;
 	padding-top: 70px;
+	flex-wrap: wrap;
 
 }
 
 .contacts__location {
 	width: 370px;
 	color: var(--color-white);
-
+	padding-bottom: 60px;
 }
 
 .contacts__location-title {
@@ -39,6 +43,7 @@
 
 .contacts__social {
 	width: 370px;
+	padding-bottom: 60px;
 }
 
 .contacts__social-title {
@@ -71,6 +76,7 @@
 .contacts__about {
 	width: 370px;
 	color: var(--color-white);
+	padding-bottom: 35px;
 }
 
 .contacts__about-title {
