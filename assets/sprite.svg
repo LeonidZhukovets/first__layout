@@ -59,6 +59,13 @@
 <symbol viewBox="0 0 24 18" id="icon_burger">
 	<path d="M0 0H24V3H0V0ZM0 7.5H24V10.5H0V7.5ZM0 15H24V18H0V15Z" fill="white"/>
 </symbol>
+<symbol viewBox="0 0 150 10" id="icon_dots" fill="none">
+	<circle cx="144.744" cy="4.74388" r="4.24388" stroke="#7E5D6F"/>
+	<circle cx="109.744" cy="4.74388" r="4.24388" stroke="#7E5D6F"/>
+	<circle cx="74.7439" cy="4.74388" r="4.24388" stroke="#7E5D6F"/>
+	<circle cx="39.7439" cy="4.74388" r="4.24388" fill="#7E5D6F" stroke="#7E5D6F"/>
+	<circle cx="4.74388" cy="4.74388" r="4.24388" stroke="#7E5D6F"/>
+</symbol>
 
 
 </svg>

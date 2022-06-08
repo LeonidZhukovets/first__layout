@@ -19,13 +19,37 @@
 	font-size: 18px;
 	line-height: 21px;
 	text-transform: uppercase;
-	margin-top: 5px;
+	margin-top: 20px;
 	margin-bottom: 50px;
 	text-align: center;
 }
 
+@media (max-width: 1024px) {
+	.download-content__title {
+		margin-top: 95px;
+		font-size: 24px;
+		line-height: 28px;
+	}
+
+	.download-content__discription {
+		font-size: 14px;
+		line-height: 16px;
+		margin-top: 20px;
+		margin-bottom: 50px;
+	}
+}
+
 @media (max-width: 320px) {
-	.download-content {
-		max-width: 280px;
+	.download-content__title {
+		margin-top: 55px;
+		font-size: 18px;
+		line-height: 21px;
+	}
+
+	.download-content__discription {
+		font-size: 13px;
+		line-height: 15px;
+		margin-top: 25px;
+		margin-bottom: 15px;
 	}
 }

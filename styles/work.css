@@ -7,7 +7,8 @@
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
-	row-gap: 4px;
+	row-gap: 2px;
+
 
 }
 
@@ -25,7 +26,8 @@
 	text-transform: uppercase;
 	color: var(--color-white);
 	text-align: center;
-	padding-top: 110px;
+	padding-top: 35%;
+
 }
 
 .gallery__img-alt>h5 {
@@ -33,7 +35,8 @@
 	font-size: 18px;
 	text-align: center;
 	color: var(--color-white);
-	padding-top: 60px;
+	padding-top: 10%;
+	/*разобраться*/
 }
 
 .gallery__img-alt {
@@ -44,6 +47,7 @@
 	height: 100%;
 	background-color: var(--color-coral);
 	opacity: 0;
+	text-align: center;
 	transition: all 0.3s;
 }
 
@@ -88,8 +92,21 @@
 	background: url("../assets/work_8.jpg") center/cover no-repeat;
 }
 
+@media (max-width: 1024px) {
+	.gallery__img-alt>h4 {
+		font-size: 18px;
+		line-height: 21px;
+	}
+
+	.gallery__img-alt>h5 {
+		font-size: 14px;
+		line-height: 16px;
+	}
+}
+
 @media (max-width: 568px) {
 	.gallery__img {
-		flex-basis: 48%;
+		height: 48vw;
+		flex-basis: 49.5%;
 	}
 }

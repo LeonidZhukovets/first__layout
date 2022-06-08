@@ -1,9 +1,8 @@
 .team-cards {
 	width: 100%;
 	display: flex;
-	padding: 115px 0;
+	padding: 115px 0 65px 0;
 	column-gap: 30px;
-	padding-bottom: 115px;
 	flex-wrap: wrap;
 	justify-content: center;
 }
@@ -67,6 +66,7 @@
 	width: 270px;
 	display: flex;
 	column-gap: 6px;
+	padding-bottom: 50px;
 
 }
 
@@ -79,4 +79,69 @@
 .person-card__links-icon>svg:hover {
 	opacity: 0.5;
 	fill: gray;
+}
+
+@media (max-width: 1200px) {
+	.team-cards {
+		column-gap: 25px;
+		padding: 80px 0 30px 0;
+	}
+
+	.person-card {
+		width: 228px;
+	}
+
+	.person-card__img {
+		height: 228px;
+		width: 228px;
+	}
+
+	.person-card__name {
+		font-size: 18px;
+		line-height: 21px;
+		padding: 25px 0 5px 0;
+	}
+
+	.person-card__position {
+		font-size: 14px;
+		line-height: 16px;
+	}
+
+	.person-card__discription {
+		font-size: 14px;
+		line-height: 16px;
+		padding: 20px 0 40px 0;
+	}
+}
+
+@media (max-width: 320px) {
+	.team-cards {
+		padding: 35px 0 0 0;
+	}
+
+	.person-card {
+		width: 280px;
+	}
+
+	.person-card__img {
+		height: 280px;
+		width: 280px;
+	}
+
+	.person-card__name {
+		font-size: 18px;
+		line-height: 21px;
+		padding: 25px 0 5px 0;
+	}
+
+	.person-card__position {
+		font-size: 14px;
+		line-height: 16px;
+	}
+
+	.person-card__discription {
+		font-size: 14px;
+		line-height: 16px;
+		padding: 40px 0 55px 0;
+	}
 }
