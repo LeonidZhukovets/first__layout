@@ -1,9 +1,13 @@
 # first__layout
 
-[link to pade](https://leonidzhukovets.github.io/first__layout/)
+[Link to pade](https://leonidzhukovets.github.io/first__layout/)
+<br>
+<hr>
 
-The project was created using html and css.
-The page is made responsive with @media, min(), max();
-The page was made according to BEM.
-The theme of SVG is worked out, sprites are connected.
-Units used: em, rem, vh, vw.
+## The project was created using html and css.
+<img src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/344/external-html-mobile-app-development-flaticons-lineal-color-flat-icons-4.png" width="150" height="150" alt="image description"><img src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/344/external-css-mobile-app-development-flaticons-lineal-color-flat-icons-4.png" width="150" height="150" alt="image description">
+
+<li>The page is made responsive with @media, min(), max();
+<li>The page was made according to BEM.
+<li>The theme of SVG is worked out, sprites are connected.
+<li>Units used: em, rem, vh, vw.
