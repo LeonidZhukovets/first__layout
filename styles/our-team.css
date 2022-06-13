@@ -5,6 +5,7 @@
 	column-gap: 30px;
 	flex-wrap: wrap;
 	justify-content: center;
+
 }
 
 .person-card {
@@ -16,11 +17,13 @@
 .person-card__img {
 	height: 270px;
 	width: 270px;
+
 }
 
 .person-card__img_1 {
 	background: url("../assets/team_1.jpg") center/cover no-repeat;
 }
+
 
 .person-card__img_2 {
 	background: url("../assets/team_2.jpg") center/cover no-repeat;
